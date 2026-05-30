@@ -143,7 +143,7 @@ export default function LandingPage() {
           href: "#membership",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/fitness-girl-gym_1157-15944.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/fitness-girl-gym_1157-15944.jpg?_wi=1"
       imageAlt="Athlete performing intense workout in a modern gym"
       avatars={[
         {
@@ -352,7 +352,7 @@ export default function LandingPage() {
               imageAlt: "Coach Ben, a male cardio and body sculpting trainer",
             },
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/fitness-girl-gym_1157-15944.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/fitness-girl-gym_1157-15944.jpg?_wi=2",
           imageAlt: "male personal trainer muscular",
         },
       ]}
