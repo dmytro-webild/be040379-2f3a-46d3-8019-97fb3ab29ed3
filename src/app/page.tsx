@@ -13,7 +13,7 @@ import ProductCardFour from '@/components/sections/product/ProductCardFour';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import TeamCardEleven from '@/components/sections/team/TeamCardEleven';
 import TextAbout from '@/components/sections/about/TextAbout';
-import { Activity, Award, Heart, Info, Leaf, Sparkles, Star, UserCheck } from "lucide-react";
+import { Activity, Award, Heart, Info, Leaf, Sparkles, Star, UserCheck, LucideIcon } from "lucide-react";
 
 const NAV_ITEMS = [
   {
@@ -100,7 +100,12 @@ const HERO_AVATARS = [
   },
 ];
 
-const HERO_MARQUEE_ITEMS = [
+type MarqueeItem = 
+  | { type: 'image'; src: string; alt?: string }
+  | { type: 'text'; text: string }
+  | { type: 'text-icon'; text: string; icon: LucideIcon };
+
+const HERO_MARQUEE_ITEMS: MarqueeItem[] = [
   {
     type: "text-icon", text: "Strength Training", icon: Info,
   },
