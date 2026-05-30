@@ -159,17 +159,17 @@ const SERVICES_ACCORDION_ITEMS = [
 const MEMBERSHIP_PLANS = [
   {
     id: "basic", badge: "Value", badgeIcon: Sparkles,
-    price: "$49/month", subtitle: "Essential Access", features: [
+    price: "₹999/month", subtitle: "Essential Access", features: [
       "Full Gym Access", "Group Classes", "Locker Room"],
   },
   {
     id: "pro", badge: "Most Popular", badgeIcon: Star,
-    price: "$79/month", subtitle: "Enhanced Experience", features: [
+    price: "₹1499/month", subtitle: "Enhanced Experience", features: [
       "All Basic Features", "Personal Training Session (1/month)", "Nutrition Guide", "Priority Booking"],
   },
   {
     id: "elite", badge: "Premium", badgeIcon: Award,
-    price: "$129/month", subtitle: "Ultimate Transformation", features: [
+    price: "₹2499/month", subtitle: "Ultimate Transformation", features: [
       "All Pro Features", "Personal Training Sessions (4/month)", "Custom Meal Plan", "24/7 Access", "Spa Services Discount"],
   },
 ];
